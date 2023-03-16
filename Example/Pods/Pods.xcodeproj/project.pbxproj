@@ -11,8 +11,8 @@
 		49C71F92786424893C484C0D5451EA00 /* Pods-Greeter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE357B423C2B2F786DDA657CDF91F43 /* Pods-Greeter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AB83A4C4E00046828E13B1DFC8AD43C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7FD040FD06C8C87026B2B2AB91A00EC5 /* Greeter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EF0937451681A0ADCA998A8E2A8D2 /* Greeter-dummy.m */; };
+		8118AC5829C333BB00188F91 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118AC5729C333BB00188F91 /* File.swift */; };
 		85847E0E3B13BF64500DD06B55819843 /* Pods-Greeter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F10C7D99BCC85877671BB93BBF3A94A9 /* Pods-Greeter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D345E57888EFCAF1DBECE11162FB7C0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8F8A419BCF4F40FDC9958E5842B6DB /* ReplaceMe.swift */; };
 		B4ABD9E16EA53A517A1A117D2AF7A17E /* Pods-Greeter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C557D485CCD4C844F45A99A9FF7F74 /* Pods-Greeter_Example-dummy.m */; };
 		CFD9F68DEAB6F0FA6DEAB4D765125B9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E4EFEEF65700B6CD4746C56B0BAEF7CC /* Pods-Greeter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E77BEB615B470AA30CE9A0D71E436E7 /* Pods-Greeter_Tests-dummy.m */; };
@@ -46,7 +46,6 @@
 		48EB168F3129C73420D86BD477EF76C1 /* Pods-Greeter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Greeter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4E5A86139DABCE20A60C59529B42F006 /* Greeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Greeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E783CBDB9DE4E5AA00E258CABE872DA /* Greeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Greeter.release.xcconfig; sourceTree = "<group>"; };
-		4F8F8A419BCF4F40FDC9958E5842B6DB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Greeter/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		547B9244E7A74F3E47F22DCF3C6373A0 /* Greeter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Greeter-prefix.pch"; sourceTree = "<group>"; };
 		568863DE92CE6236EC5369C39A82A26E /* Pods-Greeter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Greeter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		58A0AA3DC877C239B272E84830373381 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		7420F2914B31B3F1038A175FD99B8456 /* Greeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Greeter.debug.xcconfig; sourceTree = "<group>"; };
 		77A75EC1F7CE175B3EBA9FB1CC6E7B2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7868AE619F8A50890C38DB640BDC280B /* Pods-Greeter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Greeter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8118AC5729C333BB00188F91 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = Greeter/Classes/File.swift; sourceTree = "<group>"; };
 		8C3F3185FE1A4977E9A75E1B443604C4 /* Pods-Greeter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Greeter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		97F9ABA3A6207D87E6A3AFBCBD672C73 /* Pods-Greeter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Greeter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9A10BCB41CE05A37DC8BF0AC754CBB25 /* Pods-Greeter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Greeter_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -147,9 +147,9 @@
 		7E2C3982FAD053809211635AC5E461D6 /* Greeter */ = {
 			isa = PBXGroup;
 			children = (
-				4F8F8A419BCF4F40FDC9958E5842B6DB /* ReplaceMe.swift */,
 				79C54A3A8FB113C8019B5323D57BF23A /* Pod */,
 				C71E15F0DE21CB62900F0A11617FB232 /* Support Files */,
+				8118AC5729C333BB00188F91 /* File.swift */,
 			);
 			name = Greeter;
 			path = ../..;
@@ -389,7 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FD040FD06C8C87026B2B2AB91A00EC5 /* Greeter-dummy.m in Sources */,
-				9D345E57888EFCAF1DBECE11162FB7C0 /* ReplaceMe.swift in Sources */,
+				8118AC5829C333BB00188F91 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E783CBDB9DE4E5AA00E258CABE872DA /* Greeter.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -609,6 +610,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7420F2914B31B3F1038A175FD99B8456 /* Greeter.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -629,6 +631,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
